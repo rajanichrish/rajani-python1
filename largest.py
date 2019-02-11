@@ -1,11 +1,9 @@
-a=1
-b=2
-c=3
+a=int(input("Enter the num1: "))
+b=int(input("Enter the num2: "))
+c=int(input("Enter the num3: "))
 if (a>=b) and (a>=c):
-   largest = a
+   largest=a
 elif (b>=a) and (b>=c):
-   largest = b
+   largest=b
 else:
-   largest = c
-
-print("The largest number is",largest)
+   largest=c 
